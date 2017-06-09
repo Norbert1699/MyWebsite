@@ -2,19 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Norbert Kosinski | Junior Web Developer 2017</title>
+    <title>Norbert Kosinski | Front-End Web Developer 2017</title>
     <link rel="stylesheet" href="base.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+
+      function findOutMore(e) {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: $("#learnMoreContent").offset().top
+        }, 750);
+        }
+    </script>
   </head>
   <!--Site Content-->
   <body>
   <div class="container">
-   <div id="center-text">
-    <h1>NORBERT KOSINSKI</h1>
-    <p>- FRONT-END WEB DEVELOPER -</p>
-  </div>
+    <h1 id="name">NORBERT KOSINSKI</h1>
+    <p id="title">- FRONT-END WEB DEVELOPER -</p>
+    <h4>"HTML and CSS Fanatic"</h4>
       <footer>
-        <img src="img/arrow.png" alt="arrow">
+        <a href="javascript:void(0)"><img src="img/arrow.png" alt="arrow" onclick="findOutMore(event)"></a>
       </footer>
   </div>
+<a name="learnMore" id="learnMoreContent"></a>
+<section>
+  <div class="container">
+        <img src="img/meFB.jpg" alt="Me" id="me">
+      <div class="caption">
+        <h1 id="section-main">Hello! I'm Norbert...</h1>
+        <br>
+        <p>
+          I'm a 17 year-old aspiring future Front-End Web/Software developer and an avid aviation enthusiast looking to start a career in web development and help out those in need of a website with cool modern features and designs.
+        </p>
+        <br>
+        <p>
+          Here you'll find everything you need to know about me and what I can do for <strong>YOU</strong>.
+        </p>
+  </div>
+</div>
+</section>
   </body>
 </html>
