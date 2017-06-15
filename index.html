@@ -3,17 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Norbert Kosinski | Front-End Web Developer 2017</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
     <link rel="stylesheet" href="base.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-
-      function findOutMore(e) {
-        e.preventDefault();
-        $('html, body').animate({
-          scrollTop: $("#learnMoreContent").offset().top
-        }, 750);
-        }
-    </script>
   </head>
   <!--Site Content-->
   <body>
@@ -21,14 +13,16 @@
     <h1 id="name">NORBERT KOSINSKI</h1>
     <p id="title">- FRONT-END WEB DEVELOPER -</p>
     <h4>"HTML and CSS Fanatic"</h4>
-      <footer>
-        <a href="javascript:void(0)"><img src="img/arrow.png" alt="arrow" onclick="findOutMore(event)"></a>
-      </footer>
+<!--Second Footer-->
+    <footer class="footer-one">
+      <a href="javascript:void(0)"><img src="img/arrow.png" alt="arrow" onclick="findOutMore(event)"></a>
+    </footer>
   </div>
-<a name="learnMore" id="learnMoreContent"></a>
+<!--First Section-->
 <section class="section-one">
+  <a name="learnMore" id="learnMoreContent"></a>
   <div class="container">
-        <img src="img/meFB.jpg" alt="Me" id="me">
+        <img src="img/meFB2.jpg" alt="Me" id="me">
       <div class="caption">
         <h1 id="section-main">Hello! I'm Norbert...</h1>
         <br>
@@ -42,56 +36,68 @@
   </div>
 </div>
 </section>
+<!--Second Section-->
 <section class="section-two">
   <div class="container">
-        <img src="img/FlyBe.png" alt="Me" id="flybe">
+        <img src="img/Norbz.png" alt="Me" id="Me2">
       <div class="caption-two">
         <h1 id="section-main-two">A little bit about me...</h1>
-        <br>
+          <br>
         <p class="p-two">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          So I am a self-taught future front-end web developer who has been actively coding HTML, CSS for just over a year after having fell in love with code during the end of my last year at Secondary school (High School).
+          <br><br>
+          It all started when I began regularly watching Flight Simulator livestreams on Twitch.tv of a popular Flight-Sim streamer who just so happens to know Code (Front-End and Back-End). I asked him a couple of questions in regards to what he does and next thing I knew I had found myself exploring Code on codecademy.com
+          <br><br>
+          As far as continuing to strive in the Front-End web industry, I plan on actively learning as much as I can. I'm currently learning JavaScript ES6 and SASS along with the other half of GIT.
         </p>
   </div>
 </div>
 </section>
+<!--Third Section-->
 <section class="section-one">
   <div class="container">
-   <div class="caption-two">
     <h1 id="section-main">My Skills</h1>
-   </div>
-   <div class="caption">
-    <h1 class="p-two"><strong>HTML 5</strong></h1>
-    <h1 id="section-main">95%</h1>
-    <h1 class="p-two"><strong>CSS</strong></h1>
-    <h1 id="section-main">90%</h1>
-    <h1 class="p-two"><strong>SASS</strong></h1>
-    <h1 id="section-main">70%</h1>
-    <h1 class="p-two"><strong>Git</strong></h1>
-    <h1 id="section-main">50%</h1>
+    <ul class="skills-container-left">
+      <li class="skills-left">HTML5:</li>
+      <br>
+      <li class="skills-left">CSS3:</li>
+      <br>
+      <li class="skills-left">Sass:</li>
+    </ul>
+    <ul class="skills-container-right">
+      <li class="skills-right">GIT:</li>
+      <br>
+      <li class="skills-right">Design:</li>
+      <br>
+      <li class="skills-right">Javascript:</li>
+    </ul>
   </div>
 </div>
 </section>
-<section class="footer">
+<!--Second Footer-->
+<footer class="footer">
   <div class="container">
-    <h1 id="footer-header">NK</h1>
-    <div class="item">
-     <h2>External Links</h2>
+    <a href="index.html"><h1 id="footer-header">NK</h1></a>
+    <span class="item-one">
+    <h2>External Links</h2>
       <ul>
-        <li>My GitHub</li>
-        <li>My Facebook</li>
+        <a href="https://github.com/Norbert1699"><li>My GitHub</li></a>
+        <a href="https://www.facebook.com/norbert.kosinski"><li>My Facebook</li></a>
         <li>My Twitter</li>
         <li>My LinkedIn</li>
       </ul>
+    </span>
+    <span class="item-two">
+    <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> norbert.kosinski99@gmail.com</li>
+        <li><strong>Mobile:</strong></li>
+      </ul>
+    </span>
+    <p><strong>© Norbert Kosinski</strong> 2017</p>
   </div>
-  <div class="item-two">
-   <h2 class="h2-two">Contact Info</h2>
-    <ul class="ul-two">
-      <li>Email: norbert.kosinski99@gmail.com</li>
-      <li>Mobile: 07821509035</li>
-      <li>My Twitter</li>
-    </ul>
-</div>
-</div>
-</section>
+
+
+</footer>
   </body>
 </html>

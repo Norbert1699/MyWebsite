@@ -43,22 +43,11 @@ ul {
   margin-left: 100px; }
 
 .ul-two {
-  margin-left: 400px; }
+  margin-left: 600px; }
 
 li {
   font-family: "Open Sans";
   color: #B7B7B7; }
-
-a {
-  color: white;
-  font-size: 2.2em;
-  line-height: 70px; }
-
-footer {
-  text-align: center;
-  height: 110px;
-  margin-top: 340px;
-  width: 100%; }
 
 img {
   width: 130px;
@@ -66,11 +55,13 @@ img {
 
 .section-one {
   background-color: white;
+  margin-top: 20px;
   height: 500px; }
 
 .section-two {
   background-color: #223C58;
-  height: 500px; }
+  height: 500px;
+  margin-bottom: -20px; }
 
 #section-main {
   font-size: 2.5em;
@@ -84,24 +75,33 @@ img {
 
 #me {
   display: inline-block;
-  border-radius: 50%;
   margin-left: 200px;
-  margin-top: 100px;
-  width: 350px;
-  height: 350px; }
+  margin-top: 50px;
+  width: 450px;
+  height: 450px; }
 
 .caption {
   margin-top: 100px;
   margin-right: 150px;
-  display: block;
+  display: inline-block;
   float: right;
   width: 500px;
   height: 300px; }
 
+.skills-container-left {
+  float: left;
+  margin-right: 200px;
+  position: absolute;
+  margin-top: 50px; }
+
+.skills-container-right {
+  float: right;
+  margin-right: 500px;
+  margin-top: 50px; }
+
 .caption-two {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: 150px;
-  display: block;
   float: left;
   width: 500px;
   height: 300px; }
@@ -114,13 +114,35 @@ p {
 .p-two {
   font-family: "Open Sans";
   color: #B7B7B7;
-  font-weight: 300; }
+  font-weight: 300;
+  display: inline-block; }
 
-#flybe {
-  margin-left: 150px;
-  margin-top: 100px;
-  width: 550px;
-  height: 350px;
+.skills-percent {
+  font-family: "Open Sans";
+  color: #3498db;
+  font-size: 2em; }
+
+.skills-left {
+  font-family: "Open Sans";
+  color: #7C7C7C;
+  font-size: 2.5em; }
+
+.skills-right {
+  font-family: "Open Sans";
+  color: #7C7C7C;
+  font-size: 2.5em;
+    font-size-margin-top: 100px;
+    font-size-margin-right: 150px;
+    font-size-display: inline-block;
+    font-size-float: right;
+    font-size-width: 500px;
+    font-size-height: 300px; }
+
+#Me2 {
+  margin-left: 250px;
+  margin-top: 30px;
+  width: 400px;
+  height: 430px;
   display: inline-block; }
 
 .footer {
@@ -128,32 +150,44 @@ p {
   height: 200px; }
 
 #footer-header {
-  display: inline-block;
-  padding-top: 70px;
+  position: absolute;
+  margin-top: 70px;
   font-size: 2.5em;
   font-family: "Josefin Sans";
-  color: white; }
+  color: white;
+  display: inline; }
+
+.footer-one {
+  text-align: center;
+  height: 110px;
+  margin-top: 340px;
+  width: 100%; }
+
+footer p {
+  position: absolute;
+  float: right;
+  margin-left: 1200px;
+  margin-top: 100px; }
 
 h2 {
   font-family: "Indie Flower";
   color: white;
-  margin-left: 100px;
-  margin-top: 40px; }
+  margin-left: 100px; }
 
 .h2-two {
   font-family: "Indie Flower";
   color: white;
-  margin-left: 400px;
-  margin-top: 40px; }
+  margin-left: 600px; }
 
-.item {
+.item-one {
   position: absolute;
-  display: inline-block;
-  float: left; }
+  margin-top: 40px;
+  margin-left: 100px; }
 
 .item-two {
   position: absolute;
-  display: inline-block;
-  float: left; }
+  display: block;
+  margin-top: 40px;
+  margin-left: 300px; }
 
 /*# sourceMappingURL=base.css.map */
