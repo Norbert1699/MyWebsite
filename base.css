@@ -160,7 +160,7 @@ p {
 .footer-one {
   text-align: center;
   height: 110px;
-  margin-top: 340px;
+  margin-top: 250px;
   width: 100%; }
 
 footer p {
@@ -205,5 +205,25 @@ footer h2 {
   height: 25px;
   margin-top: 12px;
   margin-left: 150px; }
+
+.buttons {
+  text-align: center; }
+
+.email-me {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 1.5em;
+  border: 3px solid white;
+  background: transparent;
+  padding: 10px; }
+
+#email-body {
+  background-color: #223C58; }
+
+#click-here {
+  color: white;
+  font-family: "Open Sans"; }
 
 /*# sourceMappingURL=base.css.map */
