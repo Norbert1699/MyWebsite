@@ -222,6 +222,10 @@ footer h2 {
 #email-body {
   background-color: #223C58; }
 
+#main-text {
+  color: white;
+  font-family: "Josefin Sans"; }
+
 #click-here {
   color: white;
   font-family: "Open Sans"; }
