@@ -218,8 +218,14 @@ footer h2 {
   margin-top: 12px;
   margin-left: 150px; }
 
+a {
+  color: white; }
+
 .buttons {
   text-align: center; }
+
+.buttons button {
+  margin-left: 10px; }
 
 .email-me {
   margin-top: 40px;
