@@ -231,6 +231,12 @@ footer h2 {
   background: transparent;
   padding: 10px; }
 
+.caption-two strong {
+  color: white; }
+
+.caption-two p a {
+  color: white; }
+
 #email-body {
   background-color: #223C58; }
 
